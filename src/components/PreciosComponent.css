@@ -1,0 +1,31 @@
+.titulo {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-style: solid;
+  border-width: 2px;
+  border-collapse: collapse;
+  margin: auto;
+  width: 60%;
+}
+
+.titulo td, .titulo th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.titulo tr:nth-child(even){background-color: #f2f2f2;}
+
+.titulo th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.titulo tr:hover {background-color: #ddd;}
+
+@media (max-width: 768px) {
+    .titulo {
+      width: 90%;
+    }
+}
